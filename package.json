@@ -1,0 +1,18 @@
+{
+  "name": "TechbinderBot",
+  "version": "3.0.0",
+  "description": "Techbinder Bot helps techbinder channel and syra's group, letting user access to the library and list",
+  "private": true,
+  "main": "./index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "google-auth-library": ">=0.9.8",
+    "googleapis": "^19.0.0",
+    "moment": "^2.17.1",
+    "node-telegram-bot-api": ">=0.25.0",
+    "sqlite3": "^3.1.9"
+  }
+}
