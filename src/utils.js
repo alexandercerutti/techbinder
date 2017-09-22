@@ -26,10 +26,11 @@ if(process.argv[2] === "dev") {
 		domain: "http://techbinder-bot-techbinder.193b.starter-ca-central-1.openshiftapps.com/", 
 	};
 	bot = new TelegramBot(token, {
-		webHook: {
+/*		webHook: {
 			port: _os.port,
 			host: _os.host,
-		},
+		},*/
+		webHook: true
 	});
 
 	bot.setWebHook(_os.domain+":443/bot"+token);
