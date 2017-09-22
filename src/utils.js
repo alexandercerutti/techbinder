@@ -23,7 +23,7 @@ if(process.argv[2] === "dev") {
 	const _os = {
 		port: process.env.KUBERNETES_SERVICE_PORT,
 		host: process.env.KUBERNETES_SERVICE_HOST,
-		domain: "http://node-6-techbinder.193b.starter-ca-central-1.openshiftapps.com/", 
+		domain: "https://api.starter-ca-central-1.openshift.com", 
 	};
 	bot = new TelegramBot(token, {
 		webHook: {
