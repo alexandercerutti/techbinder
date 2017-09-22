@@ -21,9 +21,9 @@ if(process.argv[2] === "dev") {
 	log(`getUpdates Started locally`);
 } else {
 	const _os = {
-		port: process.env.KUBERNETES_SERVICE_PORT,
-		host: process.env.KUBERNETES_SERVICE_HOST,
-		domain: "https://api.starter-ca-central-1.openshift.com", 
+		port: process.env.TECHBINDER_SERVICE_PORT,
+		host: process.env.TECHBINDER_SERVICE_HOST,
+		domain: "http://techbinder-bot-techbinder.193b.starter-ca-central-1.openshiftapps.com/", 
 	};
 	bot = new TelegramBot(token, {
 		webHook: {
