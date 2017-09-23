@@ -23,7 +23,7 @@ if(process.argv[2] === "dev") {
 	const _os = {
 		port: process.env.TECHBINDER_SERVICE_PORT,
 		host: process.env.TECHBINDER_SERVICE_HOST,
-		domain: "http://techbinder-bot-techbinder.193b.starter-ca-central-1.openshiftapps.com/", 
+		domain: "https://techbinder-bot-techbinder.193b.starter-ca-central-1.openshiftapps.com/",
 	};
 	bot = new TelegramBot(token, {
 /*		webHook: {
